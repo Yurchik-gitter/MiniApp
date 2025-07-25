@@ -6,7 +6,7 @@
     <style ></style>
     <title>MiniApp</title>
     <link rel="stylesheet" href="CSS/main.css">
-
+    <script src="JS/index.js"></script>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body >
@@ -14,12 +14,26 @@
         <img src="https://артек.дети/_nuxt/img/logo-white.53955ab.png" alt="dgfdfg" width="200px" >
         <p ><h1 onclick="changeText()" >Header</h1></p></header>
     
-        <main ><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt nulla eius odio perspiciatis tempore eos enim illum! 
-        Recusandae, placeat non? Ullam nemo a soluta consequuntur neque quas, placeat excepturi adipisci.
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quidem iure, 
-    dolore nulla ex animi laborum itaque quasi debitis totam dignissimos vitae eligendi provident?
-     Officiis blanditiis dolor id veritatis quasi.</p></main>
+        <main>
+            <p id="reg">Регистрация:</p>
+            <form id="reg_form">
+                <label for="name">Введите имя:</label>
+                <input type="text" name="name"><br>
+                <label for="login">Введите логин:</label>
+                <input type="text" name="login"><br>
+                <label for="pass">Введите пароль:</label>
+                <input type="text" name="pass"><br>
+                <label for="repass">Повторите пароль:</label>
+                <input type="text" name="repass"><br>
+                <label for="gender">Выберите пол:</label>
+                <select name="gender">
+                    <option value="male">Мужской</option>
+                    <option value="feemale">Женский</option>
+                </select><br>
+                <input type="submit" value="Зарегистрироваться">
+            </form>
+        </main>
     <footer><p><h1>Footer</h1></p></footer>
-    <script src="JS/index.js"></script>
+
 </body>
 </html>        

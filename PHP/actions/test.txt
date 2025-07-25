@@ -1,0 +1,7 @@
+
+Новый пользователь:
+ name: adsdsds
+login: adsads
+pass: 0bd69d2b2efa8ca8076d34ed92990348
+repass: 9ff5c03016335e00f6f7d84312d60cf6
+gender: male

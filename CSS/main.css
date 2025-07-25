@@ -3,3 +3,7 @@ header{background-color:rgb(105, 8, 8); height: 300px; width:100%; position: rel
     font-size:50px; text-align: center;align-content: center; color: white;}
 main{background-color:cadetblue; height: 1000px; width:100%;position: relative; float: left; align-content: center;}
 footer{background-color:rgb(106, 160, 95); height: 300px; width:100%;position: relative; float: left;font-size:80px; text-align: center;align-content: center;}
+
+#reg{font-size: 50px;color: red;text-align: center;}
+#reg_form{text-align: center;}
+
