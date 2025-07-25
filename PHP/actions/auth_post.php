@@ -24,6 +24,6 @@ $to = "kirillyurikov13@gmail.com";
 $from = "kirillyurikov8@gmail.com";
 $subject = "=?uth-8?B?".base64_encode("Тема проверки")."?=";
 
-mail($to, $subject, $message, $from);
+echo mail($to, $subject, $message, $from);
 
 phpinfo();
