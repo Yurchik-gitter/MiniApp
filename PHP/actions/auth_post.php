@@ -20,10 +20,9 @@ foreach ($user as $key => $value) {
      $message = "$message $key: $value\r\n";}
 echo "<pre>".$message."</pre>";
 
-$to = "kirillyurikov13@gmail.com";
-$from = "kirillyurikov8@gmail.com";
+$to = $user['login'];
 $subject = "=?uth-8?B?".base64_encode("Тема проверки")."?=";
 
-echo mail($to, $subject, $message, $from)."asasas";
+echo mail($to, $subject, $message)."asasas";
 
 phpinfo();
