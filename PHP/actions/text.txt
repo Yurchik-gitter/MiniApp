@@ -1,7 +1,0 @@
-
-Новый пользователь:
- name: MiniApp
-login: выа
-pass: fad378a8d3fd54b956ccf85f22a379fd
-repass: abc42b643bac4ad79a218171e35c0d60
-gender: male
